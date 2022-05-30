@@ -105,7 +105,7 @@ async def useradd(_, message: Message):
 ┗━━━━•᪣•°• -𖣔- •°•᪣•━━━┛
 👋 Terima kasih telah memasukkan saya di {message.chat.title}
 
-🤖 {MUSIC_BOT_NAME} Diaktifkan 🔥
+🤖 {MUSIC_BOT_NAME} Diaktifkan
 
 📌 Untuk bantuan atau bantuan apa pun, periksa Group dan Channel dukungan kami.\n\n🤖**FRIENDZONE TEAM**""",
             reply_markup=InlineKeyboardMarkup(out[1]),
@@ -152,7 +152,7 @@ async def okaybhai(_, CallbackQuery):
 ┗━━━━•᪣•°• -𖣔- •°•᪣•━━━┛
 👋 Terima kasih telah memasukkan saya {CallbackQuery.message.chat.title}
 
-🤖 {MUSIC_BOT_NAME} Diaktifkan 🔥
+🤖 {MUSIC_BOT_NAME} Diaktifkan
 
 📌 Untuk bantuan atau bantuan apa pun, periksa Group dan Channel dukungan kami.\n\n🤖**FRIENDZONE TEAM**""",
         reply_markup=InlineKeyboardMarkup(out[1]),
