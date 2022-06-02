@@ -2,6 +2,6 @@ version: "3.10"
 services:
    docker:
    worker: Dockerfile
-    build:
+    build: .
      run:
   worker: start
