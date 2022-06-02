@@ -136,7 +136,7 @@ async def authusers(_, message: Message):
         m = await message.reply_text(
             "Mengambil Pengguna Resmi... Mohon Tunggu"
         )
-        msg = f"**Daftar Pengguna Resmi[AUL]:**\n\n"
+        msg = f"**Daftar Pengguna Resmi:**\n\n"
         for note in _playlist:
             _note = await get_authuser(message.chat.id, note)
             user_id = _note["auth_user_id"]
