@@ -1,5 +1,6 @@
 # IMPORTANT
-      STRING_SESSION: 
+      STRING_SESSION:
+      LOG_SESSION: 
       API_ID: 
       API_HASH: 
       MONGO_DB_URI: 
@@ -7,6 +8,7 @@
       BOT_TOKEN: # dapatkan dari @Botfather
       MUSIC_BOT_NAME: # jangan gunakan font aneh aneh
       OWNER_ID: 
+      ASSISTANT_PREFIX:
 # MULTI ASISSTANT
       STRING_SESSION2
       STRING_SESSION3
