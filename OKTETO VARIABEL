@@ -1,5 +1,5 @@
 # IMPORTANT
-      STRING_SESSION:
+      STRING_SESSION1:
       LOG_SESSION: 
       API_ID: 
       API_HASH: 
@@ -9,6 +9,7 @@
       MUSIC_BOT_NAME: # jangan gunakan font aneh aneh
       OWNER_ID: 
       ASSISTANT_PREFIX:
+      SUDO_USERS:
 # MULTI ASISSTANT
       STRING_SESSION2
       STRING_SESSION3
