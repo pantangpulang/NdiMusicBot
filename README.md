@@ -54,15 +54,10 @@ Generate Session via Repl:
 > By setting those two vars you can get logs of your heroku app, set var, edit var, delete vars , check dyno usage and update bot. 
 > Those two vars are not Mandatory! You can leave them blank too. 
     
-<h4>Click the button below to deploy NdiMusicBot on Heroku!</h4>    
+<h4>Click the button below to deploy NdiMusicBot on Heroku and Okteto!</h4>    
 <a href="https://dashboard.heroku.com/new?template=https://github.com/Ndiproject/NdiMusicBot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 <a href="https://telegram.dog/XTZ_HerokuBot?start=TmRpcHJvamVjdC9OZGlNdXNpY0JvdCBtYXN0ZXI"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-purple?style=for-the-badge&logo=telegram" width="200""/</a>  </p>
 
-### ᴏᴋᴛᴇᴛᴏ
-- Fork Repository ini 
-- Klik [OKTETO](https://www.okteto.com)
-- Masukan Var dan data mu, untuk melihat var apa saja yang ada silahkan klik dibawah
-- [List Variable](https://github.com/Ndiproject/NdiMusicBot/blob/master/config/README.md)
 
 </details>
 
