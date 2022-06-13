@@ -1,30 +1,30 @@
 # IMPORTANT
       STRING_SESSION1:
-      LOG_SESSION: 
       API_ID: 
       API_HASH: 
       MONGO_DB_URI: 
       LOG_GROUP_ID: 
       BOT_TOKEN: # dapatkan dari @Botfather
+      DURATION_LIMIT:
       MUSIC_BOT_NAME: # jangan gunakan font aneh aneh
       OWNER_ID: 
+      LOG_SESSION:
       ASSISTANT_PREFIX:
       SUDO_USERS:
+      SUPPORT_CHANNEL: #isi dengan https://t.me/
+      SUPPORT_GROUP: #isi dengan https://t.me/
+      START_IMG_URL:
 # MULTI ASISSTANT
       STRING_SESSION2
       STRING_SESSION3
       STRING_SESSION4
       STRING_SESSION5
 # PENGATURAN BOT
-      SUPPORT_GROUP # isi dengan https://t.me/
-      SUPPORT_CHANNEL # isi dengan https://t.me/
       AUTO_LEAVE_ASSISTANT_TIME
       AUTO_LEAVING_ASSISTANT
       PRIVATE_BOT_MODE
       GITHUB_REPO
       SPOTIFY_CLIENT_SECRET
       SPOTIFY_CLIENT_ID
-      DURATION_LIMIT
 # FOTO DAN THUMBNAIL
-      START_IMG_URL
       PING_IMG_URL
