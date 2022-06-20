@@ -47,7 +47,7 @@ Generate Session via Repl:
 </details>
 
 <details>
-<summary><b>🔗 Deploy to Heroku</b></summary>
+<summary><b>🔗 Deploy to Heroku/Okteto</b></summary>
 <br>
 
 > Heroku has two vars[ HEROKU_API_KEY & HEROKU_APP_NAME ] for Updater to work. 
