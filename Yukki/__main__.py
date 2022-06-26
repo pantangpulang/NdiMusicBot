@@ -240,13 +240,29 @@ async def initiate_bot():
     await idle()
     console.print(f"\n[red]Bot Berhenti")
 
-@app.on_message(filters.command("bantuan") & filters.private)
+home_text_pm = f"""✨ **Hello, Selamat Datang!**
+
+🤖{BOT_NAME} **Adalah Bot musik telegram untuk memutar musik+video di obrolan suara Telegram**! Contoh :
+
+╭┉┉┅┅┄┄┄┄•◦ೋ•◦❥•◦ೋ
+⧱ Play music.
+⧱ Play video.
+⧱ Download song.
+⧱ Download video.
+⧱ Search YT Link with inline.
+ •◦ೋ•◦❥•◦ೋ•┈┄┄┄┄┅┅┉╯
+
+
+💡Temukan semua command bot musik di menu » Menu Perintah«!"""
+
+
+@app.on_message(filters.command("help") & filters.private)
 async def help_command(_, message):
     text, keyboard = await help_parser(message.from_user.mention)
     await app.send_message(message.chat.id, text, reply_markup=keyboard)
 
 
-@app.on_message(filters.command("mulai") & filters.private)
+@app.on_message(filters.command("start") & filters.private)
 async def start_command(_, message):
     if len(message.text.split()) > 1:
         name = (message.text.split(None, 1)[1]).lower()
