@@ -44,7 +44,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Also without customizing or modifying as your own choice, this must be
 # filled with Ndi Music Bot Main Repository URL in value.
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/Ndiproject/NdiMusicBot"
+    "UPSTREAM_REPO", "https://github.com/pantangpulang/NdiMusicBot"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
