@@ -240,7 +240,6 @@ async def initiate_bot():
     await idle()
     console.print(f"\n[red]Bot Berhenti")
 
-
 @app.on_message(filters.command("bantuan") & filters.private)
 async def help_command(_, message):
     text, keyboard = await help_parser(message.from_user.mention)
