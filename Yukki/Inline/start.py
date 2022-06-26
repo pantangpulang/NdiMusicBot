@@ -113,7 +113,7 @@ def start_pannel():
             ],
             [
                  InlineKeyboardButton(
-                    text="🥸 ᴏᴡɴᴇʀ 🥸", 
+                    text="🥸 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥸", 
                 url=f"https://t.me/gausahsokablunyet",
                )
             ],
@@ -216,7 +216,7 @@ def private_panel():
             ],
             [
                  InlineKeyboardButton(
-                    text="🥸 ᴏᴡɴᴇʀ 🥸", 
+                    text="🥸 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥸", 
                 url=f"https://t.me/muk_ajaa",
                )
             ],
