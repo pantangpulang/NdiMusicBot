@@ -427,14 +427,14 @@ async def search_helper_mess(_, CallbackQuery):
     )
 
 
-@app.on_callback_query(filters.regex(r"mhelp_(.*?)"))
+@app.on_callback_query(filters.regex(r"help_(.*?)"))
 async def help_button(client, query):
-    home_match = re.match(r"mhelp_home\((.+?)\)", query.data)
-    mod_match = re.match(r"mhelp_module\((.+?)\)", query.data)
-    prev_match = re.match(r"mhelp_prev\((.+?)\)", query.data)
-    next_match = re.match(r"mhelp_next\((.+?)\)", query.data)
-    back_match = re.match(r"mhelp_back", query.data)
-    create_match = re.match(r"mhelp_create", query.data)
+    home_match = re.match(r"help_home\((.+?)\)", query.data)
+    mod_match = re.match(r"help_module\((.+?)\)", query.data)
+    prev_match = re.match(r"help_prev\((.+?)\)", query.data)
+    next_match = re.match(r"help_next\((.+?)\)", query.data)
+    back_match = re.match(r"help_back", query.data)
+    create_match = re.match(r"help_create", query.data)
     top_text = f"""Hello {query.from_user.first_name},
 
 Tekan tombol dibawah untuk informasi lainnya.
